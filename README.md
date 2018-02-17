@@ -58,7 +58,7 @@ Note that when doing this, make sure you put in enough text in 'essay.txt' or an
 
 ### Author
 
-- ** Abhishta Gatya ** - Computer Science Student
+- **Abhishta Gatya** - Computer Science Student
 
 ### Reference
 
