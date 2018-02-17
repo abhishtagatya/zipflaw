@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+""" Zipf Law Visual by Abhishta """
+
+import os
+import sys
+
+import src.visual as sv
+
+try :
+    print("Zipf's word frequency law in natural language")
+    print("Available arguments : './zipf [PATH-TO-TEXT] [PATH-TO-JSON]'")
+    sv.ZipfLaw()
+except IndexError :
+    print "IndexError : 'essay.txt' must not be empty, please provide text or use argument to redirect text file"
+finally :
+    sys.exit()
